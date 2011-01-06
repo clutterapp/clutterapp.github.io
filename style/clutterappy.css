@@ -1,0 +1,85 @@
+body { background-color: #f6f6f6; }
+#page-bg {
+	background-color: #f6f6f6;
+	/* additional effects (textures, gradients, etc.) go here */
+}
+
+
+#page-foot > .back {
+	background-color: #222;
+	
+	border-top: 1px solid transparent;
+	border-color: rgba(0,0,0, 0.5);
+}
+
+#page-foot > .back > .oversized > .effects {
+	-webkit-box-shadow: inset rgba(0,0,0, 0.375) 0 4px 12px;
+	   -moz-box-shadow: inset rgba(0,0,0, 0.375) 0 4px 12px;
+	     -o-box-shadow: inset rgba(0,0,0, 0.375) 0 4px 12px;
+	        box-shadow: inset rgba(0,0,0, 0.375) 0 4px 12px;
+}
+#page-foot > .cont {
+	color: #fff;
+	font-weight: bold;
+	text-shadow: #000 0px 1px 1px;
+}
+#page-foot > .cont a { color: #ccc; }
+
+
+body {
+	font: 12px Helvetica, Arial, sans-serif;
+	line-height: 18px;
+}
+
+
+body, a, #page-cont { color: #000; }
+
+a {
+	text-decoration: none;
+	
+	/*display: inline-block; vertical-align: middle;*//* needed? */
+	padding: 0 2px;
+	margin: 0 -2px;
+	
+	border: 1px solid transparent;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+}
+a:link,
+a:visited { color: #444; }
+
+a:hover,
+a:visited:hover { color: #fff; background-color: #3B3B3B; border-color: #222; }
+a:visited:hover { background-color: #222; border-color: #1b1b1b; }
+
+a:active,
+a:visited:active { background-color: #c30; border-color: #a32800; }
+
+
+#page-foot a:hover,
+#page-foot a:visited:hover { color: inherit; background-color: transparent; border-color: transparent; }
+
+#page-foot a:active,
+#page-foot a:visited:active { background-color: #c30; border-color: #a32800; }
+
+
+h1, h2, h3, h4, h5, h6 { font: 0/1 bold 'Helvetica', 'Arial', sans-serif; margin: 0; }
+h1 .sub, h2 .sub, h3 .sub, h4 .sub, h5 .sub, h6 .sub { font-size: 0.7em; opacity: 0.7; text-indent: 0.25em; }
+h1 { font-size: 20px; line-height: 24px; }
+.section h1,
+h2 { font-size: 18px; line-height: 24px; }
+.section .section h1
+h3 { font-size: 18px; line-height: 18px; color: #444; }
+.section .section .section h1,
+h4 { font-size: 16px; line-height: 16px; color: #444; }
+.section .section .section .section h1,
+h5 { font-size: 14px; line-height: 14px; color: #444; }
+.section .section .section .section .section h1,
+h6 { font-size: 12px; line-height: 12px; color: #444; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	        border-radius: 6px;
+}
